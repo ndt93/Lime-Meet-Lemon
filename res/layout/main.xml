@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <game.project.gdc.MainGamePanel
+        android:id="@+id/myPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/levelText"/>
+    
+    <EditText
+        android:id="@id/levelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/level_text"
+        android:inputType="number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+        
+    <Button 
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_button"
+        android:layout_toRightOf="@id/levelText"
+        android:layout_alignParentBottom="true"/>
+    
+    <Button 
+        android:id="@+id/instructionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction_button"
+        android:layout_toRightOf="@id/playButton"
+        android:layout_alignParentBottom="true"/>
+    
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+       
+    <Button 
+        android:id="@+id/releaseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/release_button"
+        android:layout_toLeftOf="@id/exitButton"
+        android:layout_alignParentBottom="true"/>
+    
+    <Button 
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_button"
+        android:layout_toLeftOf="@id/releaseButton"
+        android:layout_alignParentBottom="true"/>
+     
+</RelativeLayout>

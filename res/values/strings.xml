@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="exit_button">Exit</string>
+    <string name="reset_button">Reset</string>
+    <string name="instruction_button">Instructions</string>
+    <string name="release_button">Start</string>
+    <string name="play_button">Play</string>
+    <string name="level_text">Level</string>
+    <string name="app_name">Lime meet Lemon</string>
+
+</resources>
